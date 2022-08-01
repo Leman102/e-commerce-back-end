@@ -7,6 +7,24 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
+Product.findAll({
+  attributes: ['id','product_name','price','stock'],
+  include: [
+    {
+      model: Category,
+      attributes: ['category_name'] 
+    },
+    {
+      model: Tag,
+      attributes: ['tag_name']
+    }
+  ]
+})
+  .then(dbProductData => res.json(dbProductData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err)
+  });
 });
 
 // get one product
@@ -25,6 +43,7 @@ router.post('/', (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
+ /* second comment out ----
   Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
@@ -45,11 +64,13 @@ router.post('/', (req, res) => {
       console.log(err);
       res.status(400).json(err);
     });
+*/
 });
 
 // update product
 router.put('/:id', (req, res) => {
   // update product data
+/*
   Product.update(req.body, {
     where: {
       id: req.params.id,
@@ -87,6 +108,7 @@ router.put('/:id', (req, res) => {
       // console.log(err);
       res.status(400).json(err);
     });
+*/
 });
 
 router.delete('/:id', (req, res) => {
