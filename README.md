@@ -37,11 +37,11 @@ This application will allow users to view, add, edit, and delete categories, pro
 
 https://user-images.githubusercontent.com/64149102/182503788-56a8cc8d-8e2b-4471-af4d-38c67b8e6388.mp4
 
-2. The second animation shows GET, POST, PUT and DELETE routes for **products** being tested in Insomnia:
+2. The second animation shows GET, POST, PUT and DELETE routes for **categories** being tested in Insomnia:
 
 https://user-images.githubusercontent.com/64149102/182504934-34d13cb3-5bae-4aa6-ab44-a966a71edc43.mp4
 
-3. The third animation shows GET, POST, PUT and DELETE routes for **categories** being tested in Insomnia:
+3. The third animation shows GET, POST, PUT and DELETE routes for **products** being tested in Insomnia:
 
 https://user-images.githubusercontent.com/64149102/182505714-a681c16a-0bfc-4cc6-b71c-88a6950a9655.mp4
 
