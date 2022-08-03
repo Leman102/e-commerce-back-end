@@ -12,7 +12,7 @@
 This project creates the back end for an e-commerce site. This application used Express.js (API) and Sequelize to interact with a MySQL database. This application displays creation of database using mySQL with models and associations using Insomnia for viewing purposes.
 ## Installation
 * Clone project
-  > [Here](https://github.com/Leman102/employee-tracker.git)
+  > [Here](https://github.com/Leman102/e-commerce-back-end.git)
 * Run the following lines of code in your terminal to install all the needed packages:
   > npm i
   
