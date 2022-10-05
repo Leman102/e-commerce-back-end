@@ -66,4 +66,4 @@ Please reach out via:
 - **GitHub:**
   **[leman102](https://github.com/leman102)**
 - **E-mail:**
-  **leonelmancerap@gmail.com**
+  **leonelmancerap@gmail.com** 
